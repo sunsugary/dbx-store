@@ -1,0 +1,40 @@
+{
+  "id": "mybatis-sql-fill",
+  "name": "MyBatis SQL Fill",
+  "description": "Paste MyBatis DEBUG logs and fill parameters back into SQL to get executable SQL.",
+  "publisher": "sunsugary",
+  "verified": false,
+  "icon": "https://raw.githubusercontent.com/sunsugary/dbx-plugin-mybatis-sql-fill/v0.1.2/assets/plugin.svg",
+  "tags": [
+    "mybatis",
+    "sql",
+    "log"
+  ],
+  "permissions": [],
+  "source": "https://github.com/sunsugary/dbx-plugin-mybatis-sql-fill/tree/v0.1.2",
+  "homepage": "https://github.com/sunsugary/dbx-plugin-mybatis-sql-fill",
+  "license": "Apache-2.0",
+  "latestVersion": "0.1.2",
+  "versions": [
+    {
+      "version": "0.1.2",
+      "releasedAt": "2026-10-14T06:31:22.303Z",
+      "releaseNotes": "Initial release: parse MyBatis logs (arrows optional), type-aware parameter fill with ANSI DATE/TIMESTAMP literals, quote-aware substitution, one-click copy.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/mybatis-sql-fill/0.1.2/mybatis-sql-fill-0.1.2-universal.dbxp",
+          "sha256": "dc734089660c68fa90870b00bad98c6d1c0f8812996823d2b67ccc469402cc3a",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 9973
+        }
+      ]
+    }
+  ],
+  "localizations": {
+    "zh-CN": {
+      "name": "MyBatis SQL 还原",
+      "description": "粘贴 MyBatis 日志，自动把参数回填到 SQL 中，得到可直接执行的 SQL。"
+    }
+  }
+}
