@@ -5,7 +5,7 @@
   "version": "0.1.2",
   "name": "MyBatis SQL Fill",
   "description": "Paste MyBatis DEBUG logs and fill parameters back into SQL to get executable SQL.",
-  "icon": "assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/sunsugary/dbx-plugin-mybatis-sql-fill/v0.1.2/assets/plugin.svg",
   "tags": ["mybatis", "sql", "log"],
   "permissions": [],
   "source": "https://github.com/sunsugary/dbx-plugin-mybatis-sql-fill/tree/v0.1.2",
